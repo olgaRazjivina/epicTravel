@@ -1,0 +1,117 @@
+@media (max-width: 767px) {
+  .desktop-only {
+    display: none !important;
+  }
+
+  .container {
+    width: 320px;
+  }
+
+  .container .container-small {
+    width: 290px;
+  }
+
+  .title-1 {
+    font-size: 28px;
+  }
+
+  .title-2 {
+    font-size: 22px;
+  }
+
+  .title-3 {
+    font-size: 18px;
+  }
+
+  .nav-list {
+    display: none;
+  }
+
+  .btn-mobile-nav {
+    display: block;
+  }
+
+  .promo {
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 0;
+    padding-top: 40px;
+    text-align: center;
+  }
+
+  .promo-title {
+    font-size: 34px;
+  }
+
+  .promo-text {
+    font-size: 14px;
+  }
+
+  .main-content {
+    row-gap: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .content-row {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .content-img {
+    flex-basis: 120px;
+  }
+
+  .content-column-on-mobile {
+    flex-direction: column !important;
+  }
+
+  /* Inner Page */
+
+  .inner-page {
+    padding: 40px 0;
+  }
+
+  .cards-wrapper {
+    row-gap: 20px;
+  }
+
+  .card {
+    width: 290px;
+  }
+
+  .card p {
+    font-size: 14px;
+  }
+
+  /* Article */
+
+  .article-content p {
+    font-size: 14px;
+  }
+
+  .article-content p + p {
+    margin-top: 14px;
+  }
+
+  .article-img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  /* Contacts */
+
+  .address {
+    gap: 20px;
+    font-size: 14px;
+  }
+
+  .form-wrapper {
+    padding: 20px 15px;
+    font-size: 14px;
+  }
+
+  .input-on-mobile {
+    flex-basis: 100% !important;
+  }
+}

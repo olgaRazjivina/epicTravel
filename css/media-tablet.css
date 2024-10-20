@@ -1,0 +1,118 @@
+@media (max-width: 1199px) {
+  .desktop-only {
+    display: none !important;
+  }
+
+  .container {
+    width: 768px;
+  }
+
+  .container .container-small {
+    width: 768px;
+  }
+
+  .nav-list {
+    gap: 30px;
+  }
+
+  .promo {
+    padding-left: 20px;
+    height: 350px;
+    border-radius: 20px;
+  }
+
+  .promo-title {
+    margin-bottom: 0;
+    font-size: 40px;
+  }
+
+  .promo-text {
+    font-size: 18px;
+  }
+
+  .main-content {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .content-row {
+    align-items: flex-start;
+    column-gap: 30px;
+  }
+
+  .content-img {
+    border-radius: 20px;
+  }
+
+  .content-img,
+  .content-text {
+    flex: 1;
+  }
+
+  .title-1 {
+    font-size: 38px;
+  }
+
+  .content-text {
+    row-gap: 10px;
+  }
+
+  .content-text p {
+    font-size: 14px;
+  }
+
+  .footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .footer-row {
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+  }
+
+  .footer-contacts {
+    text-align: left;
+  }
+
+  /* Inner Page */
+
+  .inner-page {
+    padding: 60px 0;
+  }
+
+  .inner-page-title-wrapper {
+    margin-bottom: 40px;
+  }
+
+  .cards-wrapper {
+    row-gap: 40px;
+  }
+
+  .card {
+    width: 354px;
+  }
+
+  /* Article */
+
+  .article-content p {
+    font-size: 16px;
+  }
+
+  /* Contacts */
+
+  .contacts-columns {
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    row-gap: 40px;
+  }
+
+  .address {
+    width: 100%;
+    gap: 40px;
+  }
+
+  .form-wrapper {
+    width: 100%;
+  }
+}
